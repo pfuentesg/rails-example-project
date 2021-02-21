@@ -4,15 +4,17 @@
 
 Make sure you have a JavaScript runtime such as node installed.
 
-## If you do not have ruby installed
+## Prerequisites
 
-Install ruby version 2.6.0 with [rbenv](https://github.com/rbenv/rbenv).
+Install ruby version 3.0.0.
 
-Install bundler with `gem install bundler`
+Install node
 
-## If you already have ruby and bundler installed
+Install yarn (`npm install -g yarn` when node is installed)
 
-run `bundle install` to install all dependencies specified in the Gemfile
+Install the correct version of bundler with `gem install bundler:2.2.11`
+
+Run `bundle install` to install all dependencies specified in the Gemfile
 
 ## For development version
 

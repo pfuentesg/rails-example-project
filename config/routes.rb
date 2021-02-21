@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  root 'presses#new'
+  root "presses#new"
 
-  resources :presses, except: [:edit]
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  resources :presses
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

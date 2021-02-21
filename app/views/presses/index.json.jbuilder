@@ -1,1 +1,1 @@
-json.array! @presses, partial: 'presses/press', as: :press
+json.array! @presses, partial: "presses/press", as: :press
